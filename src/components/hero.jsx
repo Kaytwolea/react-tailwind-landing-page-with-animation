@@ -28,14 +28,12 @@ const Navbar = () => {
                             <button className='bg-transparent text-white mt-4 font-semibold border-2 rounded-full h-12 w-28 border-white'>Log in</button>
                         </ul>
                     </div>
-                    <ul className={nav ? 'fixed w-[75%] float-left h-full hero ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
-                        <li>
-                            <img src='./images/logo2.png' alt=' ' className='mt-4' />
-                        </li>
-                        <li className='pt-4 pl-8 text-white font-semibold text-base'>Schedule</li>
-                        <li className='pt-4 pl-8 text-white font-semibold text-base'>Speakers</li>
-                        <li className='pt-4 pl-8 text-white font-semibold text-base'>Tickets</li>
-                        <li className='pt-4 pl-8 text-white font-semibold text-base'>Contact</li>
+                    <ul className={nav ? 'ease-in-out duration-500 left-[-100%] h-full w-full heronav' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+                        <li className='pt-8 pl-8 text-black text-xl font-bold'>Collections</li>
+                        <li className='pt-4 pl-8 text-black font-semibold text-base'>Men</li>
+                        <li className='pt-4 pl-8 text-black font-semibold text-base'>Women</li>
+                        <li className='pt-4 pl-8 text-black font-semibold text-base'>About</li>
+                        <li className='pt-4 pl-8 text-black font-semibold text-bas'>Contact</li>
                     </ul>
 
                 </div>

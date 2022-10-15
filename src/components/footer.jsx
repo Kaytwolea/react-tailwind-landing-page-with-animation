@@ -2,8 +2,10 @@ import React from 'react';
 
 
 const Footer = () => {
-    const Events = ['Create and Setup', 'Sell tickets', 'Online RSVP', 'Online Events'];
-    const Tick = ['About Us', 'Press', 'Contact Us', 'Help Center', 'How it Works', 'Privacy', 'Terms'];
+    const Events =
+        ['Create and Setup', 'Sell tickets', 'Online RSVP', 'Online Events'];
+    const Tick = 
+        ['About Us', 'Press', 'Contact Us', 'Help Center', 'How it Works', 'Privacy', 'Terms'];
 
     return (
         <div data-aos='zoom-up-right' data-aos-duration='1500' className='bg-[#0A075F] w-full mt-12'>
