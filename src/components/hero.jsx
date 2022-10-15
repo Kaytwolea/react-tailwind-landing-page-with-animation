@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return ( 
         <div>
-            <div data-aos='fade-up' data-aos-duration='1000' className='h-20 flex justify-between w-full bg-transparent'>
+            <div data-aos='fade-up' data-aos-duration='1000' className='h-20 flex justify-between w-full'>
                 <div className='lg:mt-5 mt-3 lg:ml-0 ml-3'>
                     <img src='./images/logo2.png' alt=' ' />
                 </div>
@@ -28,15 +28,16 @@ const Navbar = () => {
                             <button className='bg-transparent text-white mt-4 font-semibold border-2 rounded-full h-12 w-28 border-white'>Log in</button>
                         </ul>
                     </div>
-                    <ul className={nav ? 'ease-in-out duration-500 left-[-100%] h-full w-full heronav' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+
+
+                </div>
+                <ul className={nav ? 'ease-in-out duration-500 float-right mr-8 mb-4 h-full w-[60%] heronav' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                         <li className='pt-8 pl-8 text-black text-xl font-bold'>Collections</li>
                         <li className='pt-4 pl-8 text-black font-semibold text-base'>Men</li>
                         <li className='pt-4 pl-8 text-black font-semibold text-base'>Women</li>
                         <li className='pt-4 pl-8 text-black font-semibold text-base'>About</li>
                         <li className='pt-4 pl-8 text-black font-semibold text-bas'>Contact</li>
                     </ul>
-
-                </div>
         </div>
     );
 }
@@ -57,7 +58,7 @@ const Hero = () => {
                     <Navbar />
                 <div data-aos='zoom-in-up' data-aos-duration='1500' data-aos-delay='300' className='flex flex-col lg:flex-row gap-0 mt-0 lg:mt-16 bg-transparent w-full h-auto'>
                     <div className=''>
-                        <img src='./images/hero.png' alt=' ' className='h-[500px] w-screen lg:w-[1700px] mr-0 lg:mr-8' />
+                        <img src='./images/hero.png' alt=' ' className='h-[500px] w-full lg:w-[1700px] mr-0 lg:mr-8' />
                     </div>
                     <div className='lg:mr-12 mr-0 w-full'>
                         <h1 className='text-4xl lg:text-left text-center text-white font-semibold mt-0 lg:mt-8'>SBS MTV The Kpop Show Ticket  Package</h1>
